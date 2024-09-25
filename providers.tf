@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-east-1"
+  region = "eu-west-1"
   profile = "973954063285_LimitedAdministratorAccess"
   # Configuration options
 }
