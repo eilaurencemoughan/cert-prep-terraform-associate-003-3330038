@@ -9,13 +9,13 @@ terraform {
 
 provider "aws" {
   region = "eu-east-1"
-  profile = "Helen"
+  profile = "AWSReservedSSO_LimitedAdministratorAccess_1b0690eee1508440/Laurence.Moughan@aerlingus.com"
   # Configuration options
 }
 
 provider "aws" {
   alias = "west2"
   region = "eu-west-2"
-  profile = "laurence"
+  profile = "AWSReservedSSO_LimitedAdministratorAccess_1b0690eee1508440/Laurence.Moughan@aerlingus.com"
 }
 
