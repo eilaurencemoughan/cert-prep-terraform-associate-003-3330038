@@ -3,7 +3,7 @@
    instance_type = "t2.micro"
 
    tags = {                                
-     Name = "laurence-training-server1"
+     Name = "laurence-terraformtraining-server1"
 }
 }
 
@@ -14,6 +14,6 @@ resource "aws_instance" "ec2-Instance2" {
   instance_type = "t2.micro"
 
   tags = {                                
-    Name = "laurence-training-server2"
+    Name = "laurence-terraformtraining-server2"
 }
 }
